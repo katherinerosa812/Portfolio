@@ -1,0 +1,224 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #9fa4a3;
+}
+
+@font-face {
+    font-family: "Miss Katherine Script";
+    src:url('../fonts/Miss-Katherine-Script.woff')
+        format('opentype');
+}
+
+h2 {
+    font-family: 'Miss Katherine Script';
+    font-size: 46px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 4px #B2B6B7;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: auto;
+}
+
+p {
+    font-size: 24px;
+}
+
+ /***** GRID *****/
+ .full-width {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .half-width {
+    width: 600px;
+    float: left;
+  }
+  
+  .third-width {
+    width: 400px;
+    float: left;
+  }
+
+/****** HEADER ******/
+header {
+    height: 700px;
+    background: url('../img/hero.jpg');
+    background-size: cover;
+    overflow: hidden;
+    background-position: 15% 65%; 
+}
+header h2 {
+    color: #e6b2a0;
+    padding-left: 40px;
+}
+nav {
+    float: right; 
+    padding: 50px 20px 20px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #9fa4a3;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 40px;
+    text-shadow: 1px 1px 4px #B2B6B7; 
+}
+
+.box {
+    background-color: rgb(255, 255, 255, 0.6);
+    position: relative;
+    top: 25px;
+    margin-left: 100px;
+}
+
+header h1 {
+    width: 1000px;
+    clear: both;
+    font-size: 72px;
+    line-height: 100px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px;
+    color: #949899;
+    text-shadow: 2px 2px 6px #9EA2A3;
+}
+
+span {
+    font-weight: extra-bold;
+    font-style: italic;
+    color: #e6b2a0;
+}
+
+/****** PORTFOLIO ******/
+#portfolio .full-width {
+    padding: 50px 0px;
+}
+
+#portfolio h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #949899;
+}
+
+#portfolio p {
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 40px;
+}
+
+#rogue, #jubilee, #knotty-mess {
+    border: 5px solid transparent;
+    border-image: url(../img/foil.jpg) 30 round;
+}
+
+.rogue-section, .jubilee-section, .knotty-section  {
+    text-align: left;
+    margin-bottom: 200px;
+}
+
+#knotty-mess {
+    width: 550px;
+}
+
+.knotty-section {
+    overflow: auto;
+    padding-bottom: 400px;
+}
+
+/****** ABOUT ******/
+#about {
+    height: 700px;
+    clear: both;
+    background: url('../img/pink-watercolor.jpg');
+    padding-bottom: 75px;
+}
+
+#about h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #949899;
+    padding-top: 25px;
+}
+
+#headshot {
+    width: 300px;
+    float: right;
+    margin: auto;
+    border: 10px solid transparent;
+    border-image: url(../img/foil.jpg) 30 round;
+    padding: 20px;
+}
+
+#about p {
+    margin: auto;
+    padding-top: 5px;
+    line-height: 45px;
+    padding-left: 100px;
+}
+
+/****** CONTACT ******/
+#contact {
+    background: url('../img/chalk-background.jpg');
+    height: 300px;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+
+#contact img {
+    width: 45px;
+    float: left;
+}
+
+#contact h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #949899;
+}
+
+#contact h3 {
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none; 
+}
+
+#contact ul li {
+     display: inline-block;
+     padding-left: 100px;
+}
+
+#envelope {
+    padding-left: 100px;
+    padding-right: 25px;
+}
+
+#contact h3 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#contact p {
+    text-align: left;
+    font-weight: bold;
+}
+
+/****** FOOTER ******/
+footer {
+    text-align: center;
+    background: url('../img/pink-watercolor.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
