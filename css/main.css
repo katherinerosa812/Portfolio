@@ -117,14 +117,18 @@ span {
     line-height: 40px;
 }
 
-#rogue, #jubilee, #knotty-mess {
+#rogue, #jubilee, #knotty-mess, #unplugged {
     border: 5px solid transparent;
     border-image: url(../img/foil.jpg) 30 round;
 }
 
-.rogue-section, .jubilee-section, .knotty-section  {
+.rogue-section, .jubilee-section, .knotty-section, .unplugged  {
     text-align: left;
     margin-bottom: 200px;
+}
+
+#unplugged {
+    width: 550px;
 }
 
 #knotty-mess {
