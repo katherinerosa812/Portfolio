@@ -127,11 +127,7 @@ span {
     margin-bottom: 200px;
 }
 
-#unplugged {
-    width: 550px;
-}
-
-#knotty-mess {
+#knotty-mess, #unplugged {
     width: 550px;
 }
 
