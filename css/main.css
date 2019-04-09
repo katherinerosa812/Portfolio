@@ -48,7 +48,7 @@ p {
 /****** HEADER ******/
 header {
     height: 700px;
-    background: url('../img/hero.jpg');
+    background: url('../img/hero.jpg') #E8EDF1;
     background-size: cover;
     overflow: hidden;
     background-position: 15% 65%; 
